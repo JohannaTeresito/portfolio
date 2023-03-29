@@ -1,8 +1,10 @@
 h1{
-    color: aquamarine;
+    color: rgb(232, 255, 127);
 }
 body{
-    background-color: pink;
+    background-image: url("..//images/wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 img { 
     height: 50%;
