@@ -1,0 +1,19 @@
+h1{
+    color: aquamarine;
+}
+body{
+    background-color: pink;
+    background-image: url("..//images/bp.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img { 
+    height: 50%;
+    width: 40%;
+}
+.pic {
+    height: 40%;
+    width: 30%;
+
+}
