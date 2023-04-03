@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: cursive
+}
+h1{
+    text-align: center;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/backgroundhome.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	min-height: 100px;
+}
+
+ul{
+	float:right;
+	list-style-type: none;
+	margin-top: 30px;
+	margin-right:60px ;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: pink;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+}
+
+ul li a:hover{
+	background-color: #85d3f7;
+	color: #f58b8b;
+}
+
+ul li.active a{
+    background-color:#050000;
+	color: pink;
+}
+.wrapper h1{
+    font-family: 'Allura', cursive;
+    font-size: 52px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+  
+.team{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+  
+.team .team_member{
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;  
+    position: relative;
+}
+  
+.team .team_member h3{
+    color: #f102aa;
+    font-size: 26px;
+    margin-top: 50px;
+}
+  
+.team .team_member p.role{
+    color: #ccc;
+    margin: 12px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+  
+.team .team_member .team_img{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #fff;
+}
+  
+.team .team_member .team_img img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
